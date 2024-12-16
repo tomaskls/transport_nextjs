@@ -1,4 +1,3 @@
-// components/LanguageButton.tsx
 'use client';
 
 import { Link, usePathname } from '@/i18n/routing';  // importuojame Link iš mūsų routing konfigūracijos

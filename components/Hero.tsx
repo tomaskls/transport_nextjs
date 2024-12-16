@@ -5,7 +5,7 @@ function Hero() {
   const t = useTranslations('hero');
   return (
     <section id='about' className="relative bg-gray-900 text-white py-20 ">
-      <Image className="mx-auto" alt='lektuvas' src="/images/airplane.webp" width={1280} height={505} />
+      <Image className="mx-auto" alt='lektuvas' src="/images/airplane.webp" width={1280} height={505} priority={true} />
       <div className="container mx-auto px-6 text-center">
         <h1 className="mt-6 text-4xl md:text-6xl font-bold mb-4">{t('title')}</h1>
         <p className="text-xl mb-8">{t('subtitle')}</p>
