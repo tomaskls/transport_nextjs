@@ -2,43 +2,38 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import Link from 'next/link';
-import { useLocale } from 'next-intl';
 
 export function Navigation() {
  const t = useTranslations('nav');
- const locale = useLocale();
+
+ const scrollToSection = (id: string) => {
+   const element = document.getElementById(id);
+   if (element) {
+     element.scrollIntoView({ behavior: 'smooth' });
+   }
+ };
 
  return (
    <div className="hidden md:flex space-x-4">
-     <Link 
-       href="/"
-       locale={locale} 
+     <button 
+       onClick={() => scrollToSection('about')}
        className="text-gray-600 hover:text-gray-900"
      >
        {t('home')}
-     </Link>
-     <Link 
-       href="/services"
-       locale={locale}
+     </button>
+     <button 
+       onClick={() => scrollToSection('services')}
        className="text-gray-600 hover:text-gray-900"
      >
        {t('services')}
-     </Link>
-     <Link 
-       href="/about"
-       locale={locale}
-       className="text-gray-600 hover:text-gray-900"
-     >
-       {t('about')}
-     </Link>
-     <Link 
-       href="/contacts"
-       locale={locale}
+     </button>
+     
+     <button 
+       onClick={() => scrollToSection('contacts')}
        className="text-gray-600 hover:text-gray-900"
      >
        {t('contact')}
-     </Link>
+     </button>
    </div>
  );
 }
