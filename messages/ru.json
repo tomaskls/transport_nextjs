@@ -1,0 +1,39 @@
+{
+  "nav": {
+    "home": "Главная",
+    "services": "Услуги",
+    "about": "О нас",
+    "contact": "Контакты"
+  },
+  "hero": {
+    "title": "Такси до аэропорта",
+    "subtitle": "Надежные и безопасные трансферы до всех аэропортов",
+    "cta": "Заказать сейчас"
+  },
+  "services": {
+    "title": "Наши услуги",
+    "airport_transfer": "Трансфер в аэропорт",
+    "airport_transfer_description": "Удобный и пунктуальный трансфер в аэропорт для вашего рейса",
+    "airport_pickup": "Встреча в аэропорту",
+    "airport_pickup_description": "Наш водитель встретит вас и безопасно доставит домой",
+    "group_transfer": "Трансфер в другие города из Шяуляй",
+    "group_transfer_description": "Трансфер до границы. Трансфер в другие города (клиники, больницы, другие учреждения) и обратно."
+  },
+  "airports": {
+    "title": "Обслуживаемые аэропорты",
+    "riga": "Šiauliai-Riga airport",
+    "vilnius": "Šiauliai-Vilnius airport",
+    "kaunas": "Šiauliai-Kaunas airport",
+    "riga_price": "Цена от 80.00 евро*",
+    "vilnius_price": "Цена от 120.00 евро*",
+    "kaunas_price": "Цена от 80.00 евро*"
+  },
+  "contact": {
+    "title": "Свяжитесь с нами",
+    "call": "Позвонить"
+  },
+  "footer": {
+    "description": "Надежные трансферы до всех аэропортов",
+    "contacts": "Контакты"
+  }
+}

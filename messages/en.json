@@ -1,0 +1,39 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Airport Taxi Service",
+    "subtitle": "Reliable and Safe Transfers to All Airports",
+    "cta": "Book Now"
+  },
+  "services": {
+    "title": "Our Services",
+    "airport_transfer": "Airport Transfer",
+    "airport_transfer_description": "Convenient and punctual transfer to the airport for your flight",
+    "airport_pickup": "Airport Pickup",
+    "airport_pickup_description": "Our driver will meet you and safely bring you home",
+    "group_transfer": "Transfers to another city from Šiauliai",
+    "group_transfer_description": "Transfers to other cities (embassies, clinics, other institutions) and back."
+  },
+  "airports": {
+    "title": "Serviced Airports",
+    "riga": "Šiauliai-Riga Airport",
+    "vilnius": "Šiauliai-Vilnius Airport",
+    "kaunas": "Šiauliai-Kaunas Airport",
+    "riga_price": "Price from 80.00 eur*",
+    "vilnius_price": "Price from 120.00 eur*",
+    "kaunas_price": "Price from 80.00 eur*"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "call": "Call"
+  },
+  "footer": {
+    "description": "Reliable Transfers to All Airports",
+    "contacts": "Contacts"
+  }
+}

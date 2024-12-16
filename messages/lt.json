@@ -1,0 +1,39 @@
+{
+  "nav": {
+    "home": "Pagrindinis",
+    "services": "Paslaugos",
+    "about": "Apie mus",
+    "contact": "Kontaktai"
+  },
+  "hero": {
+    "title": "Patikimas transportas į oro uostą",
+    "subtitle": "Patikimas ir saugus pervežimas į visus oro uostus iš Šiaulių krašto",
+    "cta": "Užsisakyk dabar"
+  },
+  "services": {
+    "title": "Mūsų paslaugos",
+    "airport_transfer": "Kelionės į oro uostą",
+    "airport_transfer_description": "Patogus ir punktualus nuvežimas į oro uostą jūsų skrydžiui",
+    "airport_pickup": "Kelionės iš oro uosto",
+    "airport_pickup_description": "Jus pasitiks mūsų vairuotojas ir saugiai parveš namo",
+    "group_transfer": "Kelionės į kitą miestą iš Šiaulių",
+    "group_transfer_description": "Vežame į kitus miestus (klinikas, ligonines, kitas įstaigas) ir atgal"
+  },
+  "airports": {
+    "title": "Aptarnaujami oro uostai",
+    "riga": "Šiauliai-Rygos oro uostas",
+    "vilnius": "Šiauliai-Vilniaus oro uostas",
+    "kaunas": "Šiauliai-Kauno oro uostas",
+    "riga_price": "Kaina nuo 80.00 eur*",
+    "vilnius_price": "Kaina nuo 120.00 eur*",
+    "kaunas_price": "Kaina nuo 80.00 eur*"
+  },
+  "contact": {
+    "title": "Susisiekite su mumis",
+    "call": "Skambinti"
+  },
+  "footer": {
+    "description": "Patikimas pervežimas į visus oro uostus",
+    "contacts": "Kontaktai"
+  }
+}
