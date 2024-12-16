@@ -1,25 +1,26 @@
-"use client"
+"use client";
 import { useState, useRef, useEffect } from 'react';
 import { Navigation } from './Navigation';
 import { LanguageSwitcher } from './LanguageSwitcher';
 import { MobileMenu } from './MobileMenu';
+import { Link } from '@/i18n/routing';
 
 function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const menuRef = useRef();
-  const buttonRef = useRef();
+  const menuRef = useRef<HTMLDivElement>(null);
+  const buttonRef = useRef<HTMLButtonElement>(null);
 
   const handleLinkClick = () => {
     setIsMobileMenuOpen(false);
   };
 
   useEffect(() => {
-    function handleClickOutside(event) {
+    function handleClickOutside(event: MouseEvent) {
       if (isMobileMenuOpen && 
           menuRef.current && 
-          !menuRef.current.contains(event.target) &&
+          !menuRef.current.contains(event.target as Node) &&
           buttonRef.current &&
-          !buttonRef.current.contains(event.target)) {
+          !buttonRef.current.contains(event.target as Node)) {
         setIsMobileMenuOpen(false);
       }
     }
@@ -35,7 +36,9 @@ function Header() {
       <header className="fixed top-0 left-0 right-0 bg-white shadow-md z-50">
         <nav className="container mx-auto px-6 py-3">
           <div className="flex justify-between items-center">
-            <a href="#" className="text-xl font-bold text-gray-800">Šiauliai Riga Taxi</a>
+            <Link href="/" className="text-xl font-bold text-gray-800">
+              Šiauliai Riga Taxi
+            </Link>
             <Navigation />
             <LanguageSwitcher />
             <button 

@@ -1,15 +1,14 @@
-import {useTranslations} from 'next-intl';
-import {Link} from '@/i18n/routing';
-import "./globals.css"
+import "../../styles/globals.css"
 import Footer from "../../../components/Footer"
+import Header from "../../../components/Header/Header"
+import Hero from "../../../components/Hero"
 
 export default function HomePage() {
-  const t = useTranslations();
   return (
     <div>
-      <h1>{t('hero.title')}</h1>
-      <Link href="/about">{t('hero.title')}</Link>
-<Footer />    
+      <Header />
+      <Hero />
+      <Footer />
     </div>
   );
 }
