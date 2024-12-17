@@ -13,7 +13,13 @@
     --foreground: #ededed;
   }
 }
-
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-weight: 400;
+  }
+}
 body {
   color: var(--foreground);
   background: var(--background);
