@@ -43,7 +43,7 @@ function Header() {
           <LanguageSwitcher />
           <button 
             ref={buttonRef}
-            className="md:hidden p-2"
+            className="md:hidden p-2 text-gray-800"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             aria-label="Toggle menu"
           >
