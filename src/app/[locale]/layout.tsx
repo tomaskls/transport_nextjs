@@ -27,7 +27,7 @@ export async function generateMetadata({
       type: 'website',
       images: [
         {
-          url: 'www.agurkas.lt/images/airplane-7766082_1280.webp',
+          url: 'https://transport-nextjs-henna.vercel.app/images/Siauliai-Airports-Siauliai.png',
           width: 1200,
           height: 630,
           alt: t('title')
