@@ -27,7 +27,7 @@ export async function generateMetadata({
       type: 'website',
       images: [
         {
-          url: '/images/airplane-7766082_1280.webp',
+          url: 'www.agurkas.lt/images/airplane-7766082_1280.webp',
           width: 1200,
           height: 630,
           alt: t('title')

@@ -1,6 +1,5 @@
 'use client';
-
-import { Link, usePathname } from '@/i18n/routing';  // importuojame Link iš mūsų routing konfigūracijos
+import { Link, usePathname } from '@/i18n/routing'; 
 import { Language } from '../../types/languages';
 
 interface LanguageButtonProps {
@@ -15,7 +14,7 @@ export function LanguageButton({ lang, isActive }: LanguageButtonProps) {
     <Link 
       href={pathname}
       locale={lang}
-      className={`px-2 py-1 text-sm font-medium ${
+      className={`px-2 py-1 text-sm font-medium text-gray-800 ${
         isActive ? 'bg-gray-200' : 'hover:bg-gray-200'
       } rounded`}
     >

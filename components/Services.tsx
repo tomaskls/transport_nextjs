@@ -9,7 +9,7 @@ interface ServiceCardProps {
 function ServiceCard({ title, description }: ServiceCardProps) {
  return (
    <div className="bg-gray-100 p-6 rounded-lg text-gray-800">
-     <h3 className="text-xl font-semibold mb-4">{title}</h3>
+     <h3 className="text-xl text-gray-800 font-semibold mb-4">{title}</h3>
      <p>{description}</p>
    </div>
  );

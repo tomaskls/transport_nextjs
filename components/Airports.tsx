@@ -12,7 +12,7 @@ interface AirportCardProps {
 function AirportCard({ name, url, imageUrl, price }: AirportCardProps) {
  return (
    <a href={url} target="_blank" rel="noopener noreferrer" className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
-     <h3 className="text-xl font-semibold mb-4">{name}</h3>
+     <h3 className="text-xl font-semibold text-gray-800 mb-4">{name}</h3>
      <div className="relative w-full h-40">
        <Image 
          src={imageUrl} 
@@ -21,7 +21,7 @@ function AirportCard({ name, url, imageUrl, price }: AirportCardProps) {
          className="object-cover rounded"
        />
      </div>
-     {price && <h3 className="text-xl font-semibold mb-4">{price}</h3>}
+     {price && <h3 className="text-xl text-gray-800 font-semibold mb-4">{price}</h3>}
    </a>
  );
 }

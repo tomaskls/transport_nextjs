@@ -7,7 +7,7 @@ function Contact() {
  return (
    <section id='contacts' className="py-16 bg-white">
      <div className="container mx-auto px-6 text-center">
-       <h2 className="text-3xl font-bold mb-8">{t('title')}</h2>
+       <h2 className="text-3xl font-bold text-gray-800 mb-8">{t('title')}</h2>
        <div className="flex flex-col items-center space-y-4">
          <a href="tel:+37060287970" className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-full inline-flex items-center">
            <i className="fas fa-phone-alt mr-2"></i>{t('call')}
