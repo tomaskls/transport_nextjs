@@ -3,6 +3,7 @@ import {getMessages, getTranslations} from 'next-intl/server';
 import {notFound} from 'next/navigation';
 import {routing} from '@/i18n/routing';
 import {Metadata} from 'next';
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 type Props = {
   children: React.ReactNode;
@@ -51,10 +52,17 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale}>
+      <head>
+      <link rel="canonical" href={`https://www.siauliai-riga.lt/${locale}`} />
+      <link rel="alternate" hrefLang="lt" href="https://www.siauliai-riga.lt/lt" />
+      <link rel="alternate" hrefLang="en" href="https://www.siauliai-riga.lt/en" />
+      <link rel="alternate" hrefLang="ru" href="https://www.siauliai-riga.lt/ru" />
+      </head>
       <body>
         <NextIntlClientProvider messages={messages}>
           {children}
         </NextIntlClientProvider>
+        <GoogleAnalytics gaId="G-5D98JQM51J" />
       </body>
     </html>
   );
