@@ -28,9 +28,9 @@
     "riga": "Šiauliai-Riga airport",
     "vilnius": "Šiauliai-Vilnius airport",
     "kaunas": "Šiauliai-Kaunas airport",
-    "riga_price": "Цена от 80.00 евро*",
-    "vilnius_price": "Цена от 120.00 евро*",
-    "kaunas_price": "Цена от 80.00 евро*"
+    "riga_price": "Цена от 80.00 евро*(маx 4 пассажира)",
+    "vilnius_price": "Цена от 120.00 евро*(маx 4 пассажира)",
+    "kaunas_price": "Цена от 80.00 евро*(маx 4 пассажира)"
   },
   "contact": {
     "title": "Свяжитесь с нами",

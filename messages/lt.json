@@ -28,9 +28,9 @@
     "riga": "Šiauliai-Rygos oro uostas",
     "vilnius": "Šiauliai-Vilniaus oro uostas",
     "kaunas": "Šiauliai-Kauno oro uostas",
-    "riga_price": "Kaina nuo 80.00 eur*",
-    "vilnius_price": "Kaina nuo 120.00 eur*",
-    "kaunas_price": "Kaina nuo 80.00 eur*"
+    "riga_price": "Kaina nuo 80.00 eur*(max 4 keleiviai)",
+    "vilnius_price": "Kaina nuo 120.00 eur*(max 4 keleiviai)",
+    "kaunas_price": "Kaina nuo 80.00 eur*(max 4 keleiviai)"
   },
   "contact": {
     "title": "Susisiekite su mumis",
