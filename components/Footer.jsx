@@ -22,7 +22,6 @@ function Footer() {
         </div>
         <div className="border-t border-gray-700 mt-8 pt-8 text-center">
           <p>&copy; {currentYear} Siauliai Transfers  &reg; All rights reserved</p>
-          <p>Created by <a href="www.tmh.lt">Tomorrow's Media House</a></p>
            <p>Created by <a href="https://www.tmh.lt" target="_blank" rel="noopener noreferrer">Tomorrow's Media House</a></p>
         </div>
       </div>
